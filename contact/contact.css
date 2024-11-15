@@ -1,4 +1,29 @@
+#content{
+    padding-left: 3%;
+    padding-right: 3%;
+}
 
+h1 {
+    padding-bottom: 2%;
+}
+
+label{
+    font-family: Mingzat, sans-serif;
+}
+
+input,textarea {
+    background-color: #D4C3ED;
+    box-sizing: border-box;
+    padding: 2% 3%;
+    border: 5px solid #2E006E;
+    border-radius: 5%;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
 
 input[type=submit] {
     background-color: #D4C3ED;
@@ -13,6 +38,7 @@ input[type=submit] {
     cursor: pointer;
 
     padding: 0.5% 1.5%;
+    margin-top: 2%;
 }
 
 input[type=submit]:hover {
@@ -20,3 +46,35 @@ input[type=submit]:hover {
     background-color: #2E006E;
 
 }
+
+form{
+    padding-bottom: 3%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        text-align: center;
+        font-size: 13vw;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    nav a {
+        font-size: 5vw;
+    }
+    #icon {
+        font-size: 4.17vw;
+        margin: auto;
+    }
+    form {
+        width: 100%;
+    }
+    .contactform {
+        width: 100%;
+    }
+    }
+    

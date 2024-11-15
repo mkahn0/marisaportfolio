@@ -5,8 +5,9 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
             <title>template document</title>
-            <link rel="stylesheet" href="contact.css">
             <link rel="stylesheet" href="../masterstyle.css">
+            <link rel="stylesheet" href="contact.css">
+
 
             <!-- FONT: MONOFETT -->
             <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,17 +21,16 @@
 
         </head>
         <body>
+            <header>
+                <a id="icon" href="../index.html">marisa kahn</a>
+                <nav>
+                    <a href="../index.html">home</a>
+                    <a href="../portfolio/portfolio.html">portfolio</a>
+                    <a href="contact.html">contact</a>
+
+                </nav>
+            </header>
             <div id="content">
-                <header>
-                    <a id="icon" href="../index.html">marisa kahn</a>
-                    <nav>
-                        <a href="../index.html">home</a>
-                        <a href="../portfolio/portfolio.html">portfolio</a>
-                        <a href="contact.html">contact</a>
-
-                    </nav>
-                </header>
-
                 <h1>let's connect!</h1>
 
 <!-- tutorials used: 
@@ -41,24 +41,27 @@
 
                 <div class="container">
                     <form action="contact.php">
-                  
-                      <label for="name">Name:</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  
-                      <label for="email">Email:</label>
-                      <input type="text" id="email" name="email" placeholder="Your email..">
-                  
-                      <label for="phone">Phone:</label>
-                      <input type="text" id="phone" name="phone" placeholder="Your phone number..">
-
-                      <label for="subject">Subject:</label>
-                      <input type="text" id="subject" name="subject" placeholder="Subject..">
-
-
-                      <label for="subject">Message:</label>
-                      <textarea id="message" name="message"></textarea>
-                  
-                      <input type="submit" value="Send">
+                        <div class="contactform">
+                            <label for="name">Name:</label>
+                            <input type="text" autocomplete="off" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                        <div class="contactform">
+                            <label for="email">Email:</label>
+                            <input type="text" autocomplete="off" id="email" name="email" placeholder="Your email..">
+                        </div>
+                        <div class="contactform">
+                            <label for="phone">Phone:</label>
+                            <input type="text" autocomplete="off" id="phone" name="phone" placeholder="Your phone number..">
+                        </div>
+                        <div class="contactform">
+                            <label for="subject">Subject:</label>
+                            <input type="text" autocomplete="off" id="subject" name="subject" placeholder="Subject..">
+                        </div>
+                        <div class="contactform">
+                            <label for="subject">Message:</label>
+                            <textarea id="message" name="message"></textarea>
+                        </div>
+                            <input type="submit" value="Send">
                   
                     </form>
                   </div>
