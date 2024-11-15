@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <title>template document</title>
+            <link rel="stylesheet" href="contact.css">
+            <link rel="stylesheet" href="../masterstyle.css">
+
+            <!-- FONT: MONOFETT -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Galada&family=Monofett&display=swap" rel="stylesheet">
+
+            <!-- FONT: MINGZAT -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Galada&family=Mingzat&family=Monofett&display=swap" rel="stylesheet">
+
+        </head>
+        <body>
+            <div id="content">
+                <header>
+                    <a id="icon" href="../index.html">marisa kahn</a>
+                    <nav>
+                        <a href="../index.html">home</a>
+                        <a href="../portfolio/portfolio.html">portfolio</a>
+                        <a href="contact.html">contact</a>
+
+                    </nav>
+                </header>
+
+                <h1>let's connect!</h1>
+
+<!-- tutorials used: 
+1. https://www.w3schools.com/howto/howto_css_contact_form.asp
+2. https://www.w3schools.com/html/html_forms.asp
+3. https://www.w3schools.com/css/css_form.asp
+ -->
+
+                <div class="container">
+                    <form action="contact.php">
+                  
+                      <label for="name">Name:</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="email">Email:</label>
+                      <input type="text" id="email" name="email" placeholder="Your email..">
+                  
+                      <label for="phone">Phone:</label>
+                      <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+
+                      <label for="subject">Subject:</label>
+                      <input type="text" id="subject" name="subject" placeholder="Subject..">
+
+
+                      <label for="subject">Message:</label>
+                      <textarea id="message" name="message"></textarea>
+                  
+                      <input type="submit" value="Send">
+                  
+                    </form>
+                  </div>
+                
+            </div>
+            <footer>
+                <a href="mailto: mkahn@sfsu.edu"><img src="../img/mail.png"></a>
+                <a href="https://www.instagram.com/marisa.k.0?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="../img/logo-instagram.png"></a>
+            </footer>
+
+        </body>
+</html>

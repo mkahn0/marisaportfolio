@@ -1,0 +1,22 @@
+
+
+input[type=submit] {
+    background-color: #D4C3ED;
+    color: #2E006E;
+    font-family: Monofett;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 20px;
+    cursor: pointer;
+
+    padding: 0.5% 1.5%;
+}
+
+input[type=submit]:hover {
+    color: #FBEECD;
+    background-color: #2E006E;
+
+}

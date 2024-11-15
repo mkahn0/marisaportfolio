@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 100%;
+}
+
+body {
+    background: #FBEECD;
+    min-height: 100dvh;
+    width: 100%;
+}
+
+h1{
+    color: #2E006E;
+    font-family: Monofett, sans-serif;
+    font-size: 5.556vw;
+    line-height: 74.219%;
+}
+
+p {
+    color: #26241D;
+    font-family: Mingzat, sans-serif;
+    font-size: 0.97vw;
+    line-height: 125%;
+}
+
+header {
+    background: #2E006E;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 4%;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 7%;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;    
+}
+
+nav a {
+    color: #D4C3ED;
+    font-family: Monofett, sans-serif;
+    font-size: 2.50vw;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FBEECD;
+}
+
+#icon {
+    color: #FBEECD;
+    font-family: Mingzat, sans-serif;
+    font-size: 1.67vw;
+    text-align: left;
+    margin: left;
+    justify-self: left;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: #2E006E;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1%;
+}
+
+
+footer a img{
+    width: 30%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
