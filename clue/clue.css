@@ -1,0 +1,20 @@
+#clueposter {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+#cards img {
+    width: 100%;
+}
+
+#cards {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2%;
+    row-gap: 3%;
+    justify-items: center;
+    margin-top: 3%;
+}

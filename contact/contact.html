@@ -39,8 +39,8 @@
 3. https://www.w3schools.com/css/css_form.asp
  -->
 
-                <div class="container">
-                    <form action="contact.php">
+                <form action="contact.php">
+                    <div id="leftcolumn">
                         <div class="contactform">
                             <label for="name">Name:</label>
                             <input type="text" autocomplete="off" id="fname" name="firstname" placeholder="Your name..">
@@ -57,14 +57,15 @@
                             <label for="subject">Subject:</label>
                             <input type="text" autocomplete="off" id="subject" name="subject" placeholder="Subject..">
                         </div>
+                    </div>
+                    <div id="rightcolumn">
                         <div class="contactform">
                             <label for="subject">Message:</label>
                             <textarea id="message" name="message"></textarea>
                         </div>
-                            <input type="submit" value="Send">
-                  
-                    </form>
-                  </div>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
                 
             </div>
             <footer>

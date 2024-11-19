@@ -4,6 +4,7 @@
 }
 
 h1 {
+    padding-top: 2%;
     padding-bottom: 2%;
 }
 
@@ -16,13 +17,9 @@ input,textarea {
     box-sizing: border-box;
     padding: 2% 3%;
     border: 5px solid #2E006E;
-    border-radius: 5%;
-}
+    border-radius: 20px;
 
-.contactform {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+    font-family: Mingzat, sans-serif;
 }
 
 input[type=submit] {
@@ -47,34 +44,42 @@ input[type=submit]:hover {
 
 }
 
-form{
-    padding-bottom: 3%;
+.contactform {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
 }
 
+form{
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 5%;
+    flex-wrap: wrap;
+}
 
+#leftcolumn{
+    width: 400px;
+}
+
+#rightcolumn{
+    width: 400px;
+}
 
 @media only screen and (max-width: 600px) {
     h1 {
         text-align: center;
-        font-size: 13vw;
-    }
-    nav {
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-end;
-    }
-    nav a {
-        font-size: 5vw;
-    }
-    #icon {
-        font-size: 4.17vw;
-        margin: auto;
+        padding-bottom: 8%;
+        padding-top: 3%;
     }
     form {
         width: 100%;
+        justify-content: center;
+        padding-bottom: 15%;
     }
     .contactform {
         width: 100%;
+        margin-bottom: 3%;
     }
-    }
-    
+}

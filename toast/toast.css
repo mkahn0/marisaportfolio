@@ -1,0 +1,23 @@
+#mockup {
+    display: inline-block;
+    text-align: center;
+}
+#img1 {
+    width: 41.70%;
+}
+
+#img2 {
+    width: 50.3%;
+}
+
+#pages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#pages img {
+    margin: 0.5%;
+}

@@ -1,0 +1,19 @@
+#text {
+    width: auto;
+    background-color: #D4C3ED;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+h1 {
+    padding-bottom: 4%;
+}
+
+#content {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
