@@ -1,0 +1,26 @@
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 2%;
+    row-gap: 1%;
+    padding-bottom: 15%;
+}
+
+#content img {
+    width: 100%;
+}
+
+#last {
+    grid-column-start: 2;
+}
+
+@media only screen and (max-width: 600px) {
+    #content{
+        display: flex;
+        flex-direction: column;
+    }
+    #content img {
+        padding-bottom: 4%;
+    }
+}

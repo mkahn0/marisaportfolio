@@ -92,8 +92,75 @@
     width: 100%;
 }
 
+#contentblock3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
+    padding-right: 3%;
+    margin-bottom: 10%;
+}
+#artistcover {
+    width: 32%;
+}
+#artistcover img {
+    width: 100%;
+}
 
+#artistmagazine {
+    width: 63.9%;
+}
+#artistmagazine img {
+    width: 100%;
+}
+
+#readposters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding-right: 3%;
+    margin-bottom: 10%;
+}
+
+#readposters a {
+    width: 30%;
+}
+
+#readposters a img {
+    width: 100%;
+}
+
+#campuspass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 3%;
+    margin-bottom: 10%;
+}
+
+#passpicone {
+    width: 55.65%;
+}
+
+#passpictwo {
+    width: 40%;
+}
+
+#passpicone a img, #passpictwo a img {
+    width: 100%;
+}
+
+#architectmag {
+    padding-right: 3%;
+    margin-bottom: 10%;
+}
+
+#architectmag a img {
+    width: 100%;
+}
 
 @media only screen and (max-width: 1404px) {
     #clue {
